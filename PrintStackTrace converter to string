@@ -1,0 +1,8 @@
+StringWriter sw = new StringWriter();
+PrintWriter pw = new PrintWriter(sw);
+e.PrintStackTrace(pw);
+sw.toString();
+
+–-------------------------
+
+Exception e 
